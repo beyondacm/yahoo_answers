@@ -1,0 +1,11 @@
+THIS is file crawled from the answers.yahoo.com with json format.
+IT  includes 1000 items, 
+    each item include the related_id which means the qid(question_id)
+	and the votes information of 10 top answers sort by Rating
+	For example :
+	IF 20080725080201AA93Z0K is the qid, I cralwed the page :
+	https://answers.yahoo.com/question/index?qid=20080725080201AA93Z0K&sort=V
+	vote_up and vote_dowm are the votes infomation of each answer.
+	[best_answer_voteup, second_answer_voteup, 3rd_answer_voteup...]
+	[best_answer_votedowm, second_answer_votedowm, 3rd_answer_votedowm...]
+
