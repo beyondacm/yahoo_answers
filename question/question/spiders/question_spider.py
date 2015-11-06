@@ -16,7 +16,12 @@ class QuestionSpider(CrawlSpider):
     close_down = False
 
     start_urls = [
-        "https://answers.yahoo.com/question/index?qid=20151030174840AAFIziF",
+        "https://answers.yahoo.com/dir/index?sid=396545469",
+        #"https://answers.yahoo.com/question/index?page=1&qid=20120129100259AANhDfd&sort=R",
+        #"https://answers.yahoo.com/question/index?qid=20070401213259AA6Sjah&sort=V",
+        #"https://answers.yahoo.com/question/index?qid=20080318200319AABBIN6&sort=V",
+        #"https://answers.yahoo.com/question/index?qid=20151030174840AAFIziF",
+        #"https://answers.yahoo.com/question/index?qid=20130315055034AAIrUJ3&sort=V",
     ]
 
     rules = (
@@ -26,7 +31,7 @@ class QuestionSpider(CrawlSpider):
 
     def parse_question(self, response):
         
-        if self.item_count >= 1000:
+        if self.item_count >= 2000:
             self.close_down = True
 
         if self.close_down:

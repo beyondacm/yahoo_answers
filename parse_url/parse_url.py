@@ -8,8 +8,6 @@ t = set()
 
 for line in f1:
     info = line.split('"')
-
-
     
     if len(info[3]) == 38 :
         #print len(info[3])
