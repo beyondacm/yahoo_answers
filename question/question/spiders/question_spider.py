@@ -16,7 +16,9 @@ class QuestionSpider(CrawlSpider):
     close_down = False
 
     start_urls = [
-        "https://answers.yahoo.com/dir/index?sid=396545469",
+        "https://answers.yahoo.com/dir/index?sid=396545213",
+        #"https://uk.answers.yahoo.com/dir/index?sid=396545443",
+        #"https://answers.yahoo.com/dir/index?sid=396545469",
         #"https://answers.yahoo.com/question/index?page=1&qid=20120129100259AANhDfd&sort=R",
         #"https://answers.yahoo.com/question/index?qid=20070401213259AA6Sjah&sort=V",
         #"https://answers.yahoo.com/question/index?qid=20080318200319AABBIN6&sort=V",
