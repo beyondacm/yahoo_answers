@@ -13,7 +13,7 @@ class AnswerSpider(scrapy.Spider):
     name = "answers"
     allowed_domains = ['answers.yahoo.com']
 
-    f = open('urls_01.txt')
+    f = open('urls_05.txt')
     start_urls = [ url.strip() for url in f.readlines() ]
     f.close()
     
